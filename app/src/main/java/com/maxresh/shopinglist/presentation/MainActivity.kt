@@ -1,7 +1,8 @@
-package com.maxresh.shopinglist
+package com.maxresh.shopinglist.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.maxresh.shopinglist.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
