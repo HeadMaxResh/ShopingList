@@ -1,7 +1,7 @@
 package com.maxresh.shopinglist.domain
 
 class DeleteShopItemUseCase(private val shopListRepository: ShopListRepository) {
-    fun deleteShopItem(shopItem: ShopItem) {
-        shopListRepository.deleteShopItem(shopItem)
+    fun deleteShopItem(shopItemId: Int) {
+        shopListRepository.deleteShopItem(shopItemId)
     }
 }
